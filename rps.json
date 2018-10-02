@@ -1,0 +1,1 @@
+[{"Round":1,"Winner":"Tie","Inputs":{"Player1":"rock","Player2":"rock"}},{"Round":2,"Winner":"Player1","Inputs":{"Player1":"paper","Player2":"rock"}},{"Round":3,"Winner":"Tie","Inputs":{"Player1":"paper","Player2":"paper"}},{"Round":4,"Winner":"Player2","Inputs":{"Player1":"rock","Player2":"paper"}},{"Round":5,"Winner":"Player1","Inputs":{"Player1":"paper","Player2":"rock"}}]
