@@ -43,10 +43,10 @@ The program must have the following:
 2. A thread for Player2 with the following properties . 
   i. It’s identical to Player2, except it employs a different strategy for generating it’s move. Player2’s strategy should be based on the history of Player1’s previous moves. For example, randomly choosing one of Player1’s moves and using that as it’s next move. Or, using Player1’s last move as it’s next move.  
 3. A main thread that does the following:  
-  i. Start the Player1 and Player2 threads  
-  ii. Repeat the following steps 100 times:    
+  1. Start the Player1 and Player2 threads  
+  2. Repeat the following steps 100 times:    
     1. Ask Player1 and Player2 for their next move each, passing in the full history of previous rounds (initially empty)  
     2. Determine the winner for this round (if any)  
-    3. Store the results in memory, which will be passed to the players as inputs on subsequent rounds
-  iii. Emit the results in a file called result.json and output a message to the console with the full path to the result file.  
-  iv. Stop the Player1 and Player2 threads  
+    3. Store the results in memory, which will be passed to the players as inputs on subsequent rounds  
+  3. Emit the results in a file called result.json and output a message to the console with the full path to the result file.  
+  4. Stop the Player1 and Player2 threads  
