@@ -34,7 +34,7 @@ The final output should be a JSON file that contains the complete game history o
 ]
 ```
 
-##Components
+## Components
 The program must have the following:  
 1. A thread for Player1 with the following properties  
   i. It has the ability to receive a request from another thread (in this case, the main thread) to return it’s next move.  
@@ -51,5 +51,5 @@ The program must have the following:
   iii. Emit the results in a file called result.json and output a message to the console with the full path to the result file.  
   iv. Stop the Player1 and Player2 threads  
 
-##Testing
+## Testing
 Write a test that exercises the code and validates that the JSON output is valid and contains 100 game rounds
