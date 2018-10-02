@@ -45,8 +45,8 @@ The program must have the following:
 3. A main thread that does the following:  
   i. Start the Player1 and Player2 threads  
   ii. Repeat the following steps 100 times:    
-    a. Ask Player1 and Player2 for their next move each, passing in the full history of previous rounds (initially empty)  
-    b. Determine the winner for this round (if any)  
-    c. Store the results in memory, which will be passed to the players as inputs on subsequent rounds  
+    1. Ask Player1 and Player2 for their next move each, passing in the full history of previous rounds (initially empty)  
+    2. Determine the winner for this round (if any)  
+    3. Store the results in memory, which will be passed to the players as inputs on subsequent rounds  
   iii. Emit the results in a file called result.json and output a message to the console with the full path to the result file.  
   iv. Stop the Player1 and Player2 threads  
