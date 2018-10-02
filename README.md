@@ -37,8 +37,8 @@ The final output should be a JSON file that contains the complete game history o
 **Components**
 The program must have the following:  
 1. A thread for Player1 with the following properties  
-  a. It has the ability to receive a request from another thread (in this case, the main thread) to return it’s next move.  
-  b. The input it receives should include the full history of the previous rounds with Player2, which should look like the above example  
+  1. It has the ability to receive a request from another thread (in this case, the main thread) to return it’s next move.  
+  2. The input it receives should include the full history of the previous rounds with Player2, which should look like the above example  
   c. It can employ any strategy to generate it’s move, including choosing a random move. It’s up to you decide what strategy to use.  
 2. A thread for Player2 with the following properties . 
   a. It’s identical to Player2, except it employs a different strategy for generating it’s move. Player2’s strategy should be based on the history of Player1’s previous moves. For example, randomly choosing one of Player1’s moves and using that as it’s next move. Or, using Player1’s last move as it’s next move.  
